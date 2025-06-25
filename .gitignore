@@ -39,7 +39,7 @@ bower_components
 build/Release
 
 # Dependency directories
-node_modules/
+# node_modules/ # Line commented out for Git performance optimization.
 jspm_packages/
 
 # Snowpack dependency directory (https://snowpack.dev/)
@@ -89,7 +89,7 @@ out
 
 # Nuxt.js build / generate output
 .nuxt
-dist
+# dist # Line commented out for Git performance optimization.
 
 # Gatsby files
 .cache/
@@ -134,3 +134,16 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+# --- Project-specific additions/refinements (React/Vite) ---
+
+# Vite build output and cache
+/dist
+/.vite
+
+# Project dependencies
+/node_modules
+
+# Important: The 'public' folder contains source static assets for Vite/Next.js and MUST be versioned.
+# DO NOT UNCOMMENT THE LINE BELOW FOR VITE/NEXT.JS PROJECTS
+# public/
