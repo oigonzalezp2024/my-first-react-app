@@ -12,3 +12,4 @@ Esta guía te llevará desde la configuración inicial de tu entorno, poniendo �
 
 <a href = "./docs/lighthouse.md">Lighthouse</a> - Guía Paso a Paso para Realizar Pruebas Lighthouse y Optimizar tu Aplicación Web.  
 <a href = "./docs/buenas_practicas.md">Buenas Prácticas</a> - Siguientes Pasos Esenciales con Buenas Prácticas.  
+<a href = "./docs/pruebas_lighthouse.md">Optimización </a> - Pruebas lighthouse. 
